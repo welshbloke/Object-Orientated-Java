@@ -1,0 +1,7 @@
+HoverFrogVet nigel = new HoverFrogVet();
+HoverFrog kris = new HoverFrog();
+HoverFrog kermit = new HoverFrog();
+HoverFrog zoe = new HoverFrog();
+nigel.addFrog(kris, true);
+nigel.addFrog(kermit, true);
+nigel.addFrog(zoe, false);

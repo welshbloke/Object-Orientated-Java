@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=
+comment0.target=HoverFrogVet()
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ HoverFrogVet\ Class\r\n
+comment1.params=aFrog\ year1\ year2
+comment1.target=void\ addFrog(HoverFrog,\ java.lang.Integer,\ java.lang.Integer)
+comment1.text=\r\n\ Adds\ the\ full\ name\ of\ the\ HoverFrog\ referenced\ by\ aFrog\ as\ the\ key\ to\ the\ map,\r\n\ with\ an\ associated\ set\ containing\ the\ last\ two\ years\ the\ HoverFrog\ was\ oiled.\r\n
+comment2.params=
+comment2.target=void\ printMap()
+comment2.text=\r\n\ Iterates\ through\ the\ map\ referenced\ by\ the\ HoverFrogVet,\ printing\r\n\ a\ list\ of\ the\ keys\ (full\ name\ of\ the\ HoverFrog)\ and\ its\ values\ (a\ set\r\n\ containing\ all\ the\ years\ the\ HoverFrog\ was\ oiled)\r\n
+comment3.params=theKey
+comment3.target=void\ printMapValue(java.lang.String)
+comment3.text=\r\n\ Checks\ to\ see\ if\ the\ argument\ String\ is\ a\ HoverFrog\ in\ the\ map\ reference\r\n\ by\ the\ HoverFrogVet\ Object\r\n\ @param\ theKey\ the\ full\ name\ of\ the\ HoverFrog\ being\ searched\ for\r\n
+comment4.params=aFrog\ year1\ year2
+comment4.target=boolean\ addMapEntry(HoverFrog,\ java.lang.Integer,\ java.lang.Integer)
+comment4.text=\r\n\ Checks\ to\ see\ if\ HoverFrog\ aFrog\ aleady\ exists\ as\ a\ key\ to\ the\ map.\r\n\ If\ so,\ an\ option\ is\ given\ to\ override\ the\ existing\ entry\ or\ do\ nothing.\r\n\ If\ no\ entry\ is\ found,\ HoverFrog\ aFrog\ is\ added\ to\ the\ map.\r\n\ @param\ aFrog\ the\ HoverFrog\ to\ be\ added\ to\ the\ list\r\n\ @param\ year1\ a\ year\ the\ HoverFrog\ was\ oiled\r\n\ @param\ year2\ a\ year\ the\ HoverFrog\ was\ oiled\r\n\ @return\ true\ or\ false\ to\ indicate\ if\ the\ HoverFrog\ was\ added\ to\ the\ map\r\n
+comment5.params=oiledYears
+comment5.target=java.util.Set\ selectValues(java.lang.Integer)
+comment5.text=\r\n\ Prints\ out\ all\ the\ HoverFrogs\ that\ were\ oiled\ in\ the\ year\ given\ by\r\n\ the\ argument\ oiledYears\r\n\ @param\ oiledYears\ to\ check\ which\ HoverFrogs\ were\ oiled\ in\ this\ year\r\n\ @return\ a\ set\ of\ all\ the\ HoverFrogs\ oiled\ in\ the\ requested\ year\r\n
+comment6.params=frogToChange\ yearToAdd
+comment6.target=void\ addValue(HoverFrog,\ java.lang.Integer)
+comment6.text=\r\n\ Assuming\ it\ already\ exists\ in\ the\ map,\ adds\ a\ new\ year,\ yearToAdd,\ to\ the\ entry\ with\r\n\ key\ referenced\ by\ HoverFrog\ frogToChange.\r\n\ @param\ frogToChange\ the\ name\ of\ the\ HoverFrog\ to\ have\ another\ year\ oiled\ added\r\n\ @param\ yearToAdd\ the\ new\ year\ to\ add\ to\ the\ set\ of\ years\ referenced\ by\ the\ map\r\n
+comment7.params=frogToChange\ yearToDelete
+comment7.target=void\ deleteValue(HoverFrog,\ java.lang.Integer)
+comment7.text=\r\n\ Assuming\ it\ already\ exists\ in\ the\ map,\ removes\ a\ new\ year,\ yearToDelet,\ from\ the\ entry\ with\r\n\ key\ referenced\ by\ HoverFrog\ frogToChange.\r\n\ @param\ frogToChange\ the\ name\ of\ the\ HoverFrog\ to\ have\ a\ year\ oiled\ removed\r\n\ @param\ yearToDeltet\ the\ year\ to\ delete\ from\ the\ set\ of\ years\ referenced\ by\ the\ map\r\n
+numComments=8
